@@ -44,7 +44,8 @@ All this is new:
 * From progressive Web app to Native application
 * Everything regarding the Point of Sale is new.
 
--Basically we just reused the name and some images.
+### Basically we just reused the name and some images.
+
 # Introduction and Problem
 
 Almost 4 years ago Vitálik Buterin, co founder of Ethereum posted in twitter this message:
