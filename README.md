@@ -280,7 +280,27 @@ Thus, the need for Decentralized solutions.
 
 Security and identity verification of the clients who use the app is paramount for us, and to thrive in this market we need this to emulate incumbents such as Bitso. We think our technology is mature enough if we compare with these incumbents and much safer. 
 
-Regarding the application we would like to test it with real Capital perhaps in Q2 2023.
+Of course, the main plan is to launch this application both the wallet and test the PoS system with several businesses at a retail level through pilots that we are already obtaining at this very moment.
+
+Though our time with certain mentors during the Hackathon we were shared several insights both technical and on the business development side that will map the next upgrades to the project:
+
+To have a conversion ready for the final user in a currency he can understand, this happens when we do not use Stablecoins. (from Kasper Mai Joergensen)
+
+Improve or remove the seed phrase process for the PoS. (from Kasper Mai Joergensen)  
+
+Incorporate the SmolDOT light client instead of an RPC and refer to XCM correctly as a language xD. (from Leonardo Razovic)
+
+Improve the UX and incorporate CRM utilities for businesses. (from Victor Estival)
+
+Mind the Polkadot grants and support, and learn to market. (Victor Estival)
+
+Improve on the delivery of the project and perhaps experiment with DeFi tools (Daniel Bigos)
+
+Go further though several of the other Moonbeam tools and experiment (Kevin Neilson) 
+
+But in essence our plan is to launch the Wallet and run pilots for the PoS while we secure funding.
+
+
 
 Hopefully you liked the Mobile DApp and Point of Sale.
 
