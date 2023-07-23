@@ -206,7 +206,7 @@ https://phala.subscan.io/extrinsic/0x1b6c65538305ef1c3051a63cb3485ccc0e75bd8cf87
   
 ## POS - WalletConnect 2.0 Payments:
 
-- One of the most important processes is being able to make payments at the POS through WalletConnect 2.0, being this the pillar of our device, a su vez el poder realizar los pagos con cualquiera de los X-Tokens disponibles en la red de moonbeam y con esto ampliando la usabilidad del POS a cualquiera de las parachains compatibles con el XCM protocol y la Relay Chain.
+- One of the most important processes is being able to make payments at the POS through WalletConnect 2.0, being this the pillar of our device, ya que esto provee una experiencia de pago similar a los pagos actuales sin contacto, a su vez el poder realizar los pagos con cualquiera de los X-Tokens disponibles en la red de moonbeam, los pagos pueden realizarse ya sea entre las redes como una transaccion tradicional o cross chain mediante el lemguaje XCM, por ejemplo mostraremos como se realiza una transaccion desde moonbeam a una parachain.
 
   <img src="https://i.ibb.co/L6Sv9bn/vlcsnap-2023-07-21-20h09m29s388.png" width="32%" >
   <img src="https://i.ibb.co/QkMJ2Mr/vlcsnap-2023-07-21-20h09m50s015.png" width="32%">
