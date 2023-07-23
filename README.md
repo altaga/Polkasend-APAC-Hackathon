@@ -28,17 +28,21 @@ The idea and project is vaguely based on a project that we developed last year t
 
 This is that project: https://devpost.com/software/polkasend
 
-Nevertheless almost everything, but the name and some visuals, is completely new on the development side. 
+Nevertheless almost everything, but the name and some visuals, is completely NEW.
 
-And we decided on that vehemently for this hackathon: EVERYTHING from this new Polkasend is developed from scratch. And you can attest to that if you compare screenshots and functionalities. Even the code for the incorporation of Rapyd is all new as they also updated their platform. 
+And we decided on that vehemently for this hackathon: EVERYTHING from this new Polkasend is developed from scratch (it was previously a progressive Webapp). And you can attest to that if you compare screenshots and functionalities. Even the code for the incorporation of Rapyd is all new as they also updated their platform. 
 
 All this is new:
 
-* Moonbeam EVM instead of Acala
-* Full Polkadot wallet with XCM services
-* Moonbeam's XC-20 tokens
-* Everything regarding the Point of Sale is new
+* Moonbeam EVM instead of Acala.
+* Full Polkadot and Moonbeam EVM wallet with XCM services
+* Moonbeam's XC-20 tokens and their equivalent on the Polkadot parachains. [ACA, ASTR, aUSD, BNC, DOT, IBTC, INTR, PARA, PHA, RING, USDT]
+* Transfers from Moonbeam to Parachains through Moonbeam's X-Tokens Solidity Interface.
+* Contactless transfers through WalletConnect 2.0 services, EVM and Polkadot compatible.
+* From progressive Web app to Native application
+* Everything regarding the Point of Sale is new.
 
+-Basically we just reused the name and some images.
 # Introduction and Problem
 
 Almost 4 years ago Vitálik Buterin, co founder of Ethereum posted in twitter this message:
