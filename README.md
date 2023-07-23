@@ -22,6 +22,23 @@ POS App APK: [LINK](./POS_APK/app-release.apk)
 
 [![Demo](https://i.ibb.co/g4W3ypx/image.png)](pending)
 
+# Improvements and our thesis for this new Polkasend
+
+The idea and project is vaguely based on a project that we developed last year that has participated in some hackathons. We just took the name it had, grabbed the idea to combine Traditional Finance and Web3 from it and that is basically it. For that project we used the Acala EVM and on the side of Traditional Finance we are using the Rapyd's sandbox (one of the biggest Fintech providers in the world). 
+
+This is that project: https://devpost.com/software/polkasend
+
+Nevertheless almost everything, but the name and some visuals, is completely new on the development side. 
+
+And we decided on that vehemently for this hackathon: EVERYTHING from this new Polkasend is developed from scratch. And you can attest to that if you compare screenshots and functionalities. Even the code for the incorporation of Rapyd is all new as they also updated their platform. 
+
+All this is new:
+
+* Moonbeam EVM instead of Acala
+* Full Polkadot wallet with XCM services
+* Moonbeam's XC-20 tokens
+* Everything regarding the Point of Sale is new
+
 # Introduction and Problem
 
 Almost 4 years ago Vitálik Buterin, co founder of Ethereum posted in twitter this message:
