@@ -18,6 +18,8 @@ Main App APK: [LINK](./WALLET_APK/app-release.apk)
 
 POS App APK: [LINK](./POS_APK/app-release.apk)
 
+Installation and Setup guide: [LINK](./INSTALL&SETUP.md)
+
 ## Here is our main demo video: 
 
 [![Demo](https://i.ibb.co/g4W3ypx/image.png)](pending)
