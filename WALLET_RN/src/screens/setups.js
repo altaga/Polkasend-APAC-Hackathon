@@ -62,11 +62,9 @@ class Setup extends Component {
 
   static contextType = ContextModule;
 
-  async componentDidMount() {
+  async startComponent(){
     const biometrics = new ReactNativeBiometrics();
-    //await this.erase()
-    this.props.navigation.addListener('focus', async () => {
-      this.mount = true;
+    this.mount = true;
       if (this.context.value.kyc) {
         this.context.setValue({
           kyc: false,
@@ -161,6 +159,13 @@ class Setup extends Component {
           });
         }
       }
+  }
+
+  async componentDidMount() {
+    
+    //await this.erase()
+    this.props.navigation.addListener('focus', async () => {
+      this.startComponent()
     });
     this.props.navigation.addListener('blur', () => {
       this.mount = false;
@@ -615,7 +620,7 @@ class Setup extends Component {
               <Pressable
                 style={GlobalStyles.button}
                 onPress={() => {
-                  this.props.navigation.navigate('CheckPin');
+                  this.startComponent()
                 }}>
                 <Text style={[GlobalStyles.buttonText]}>Complete w/o KYC</Text>
               </Pressable>
