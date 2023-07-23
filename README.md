@@ -4,7 +4,7 @@
 
 Polkasend is a wallet and Point of Sale Superapp that combines TradFi with Web3, through Moonbeam and Polkadot's XCM services.
 
-<img src="https://i.ibb.co/yB3qdr5/logoETH.png" width="50%">
+<img src="https://i.ibb.co/yB3qdr5/logoETH.png" width="20%">
 
 <br>
 
