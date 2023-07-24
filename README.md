@@ -54,18 +54,18 @@ Banking the unbanked has always been a paradigm in the Web3 world.
 
 Our team is based in Mexico, within a region with several challenges, an estimated 70% of economic transactions in Latin America are all cash. And just 50% have bank accounts. But, in contrast 78% has a cell phone with an internet connection.
 
-<img src="https://i.ibb.co/tcxQWP3/inclusion-in-LATAM.jpg">
+<img src="https://i.ibb.co/tcxQWP3/inclusion-in-LATAM.jpg" width="20%">
 
 These numbers are close and very similar to the APAC region. In Asia Pacific cash accounts for 57% of the transactions and just 76% has bank accounts. Of course in terms of mobile connections they boast much higher numbers reaching 98%! 
 
-<img src="https://i.ibb.co/cYQYBdR/stats.png">
+<img src="https://i.ibb.co/cYQYBdR/stats.png" width="20%">
 
 Traditional Finance has proven itself unable to solve the great Chasm in both regions that comes from not having any kind of banking, and overusing cash not to mention a digital one.
 We think that both regions are set to jump this chasm and generate new economies based on these technologies, which they already are doing. Despite this the crypto world has seldom focused on these regions and not really reached the retail or final consumer, until now.
 
-<img src="https://i.ibb.co/cc0HFZc/fintech.png">
+<img src="https://i.ibb.co/cc0HFZc/fintech.png" width="20%">
 
-<img src="https://i.ibb.co/86VHBv9/globalfintech.png">
+<img src="https://i.ibb.co/86VHBv9/globalfintech.png" width="20%">
 
 Of course, as the numbers show us that Digital Wallets are projected to overtake credit cards by 2024, we want to capitalize on that opportunity with Fintech and Web3 tools.
 
