@@ -48,24 +48,29 @@ All this is new:
 
 # Introduction and Problem
 
-Almost 4 years ago Vitálik Buterin, co founder of Ethereum posted in twitter this message:
+## Industries being disrupted: ewallets, fintech and retail Point of Sale.
 
-<img src="https://i.ibb.co/ggfZWPD/vitalik.png">
+Banking the unbanked has always been a paradigm in the Web3 world.
 
-At that time it grabbed the attention of almost the entire crypto space and the answers regarding that question were mostly a big “Not many if at all”. Of course, there have been isolated projects that try to work with the developed world with several big names attached, but not to much avail. Cryptocurrencies and blockchain technology from that time onwards has mostly been used by a few early adopters and some others, but were mostly already banked, educated people, even in the developing world. 
+Our team is based in Mexico, within a region with several challenges, an estimated 70% of economic transactions in Latin America are all cash. And just 50% have bank accounts. But, in contrast 78% has a cell phone with an internet connection.
 
-Now, let’s ask that same question today; How many unbanked have we banked by the year 2021? Despite having made great progress and having outliers like the country of El Salvador, outside of that, the progress is almost null. Most of the same people that are into crypto today have been in for years and are the same elite, educated, previously banked ones, it has not reached those who are not.   
+<img src="https://i.ibb.co/tcxQWP3/inclusion-in-LATAM.jpg">
 
-We can say that because our team lives in one of those developing countries that countless projects try to portray as a target for financial inclusion, which is Mexico. 
+These numbers are close and very similar to the APAC region. In Asia Pacific cash accounts for 57% of the transactions and just 76% has bank accounts. Of course in terms of mobile connections they boast much higher numbers reaching 98%! 
 
-And yes, Mexico is the perfect target as it is the largest issuer of remittances from the US and it will break $42Billion this year alone.  
+<img src="https://i.ibb.co/cYQYBdR/stats.png">
 
-<img src="https://cdn.howmuch.net/articles/outgoing-remittances-usa-final-8374.jpg" width="400">
+Traditional Finance has proven itself unable to solve the great Chasm in both regions that comes from not having any kind of banking, and overusing cash not to mention a digital one.
+We think that both regions are set to jump this chasm and generate new economies based on these technologies, which they already are doing. Despite this the crypto world has seldom focused on these regions and not really reached the retail or final consumer, until now.
 
+<img src="https://i.ibb.co/cc0HFZc/fintech.png">
 
-Of course, remembering that the US is the biggest sender of remittances in the world.
+<img src="https://i.ibb.co/86VHBv9/globalfintech.png">
 
-It is important to mention that, according to the World Bank, 65% of Mexican adults do not have any type of bank account and only 10% save through a financial institution, in addition to the fact that 83% of Mexican adults do not have access to electronic payment systems. These circumstances limit the potential of the sector to place the resources of savers in productive projects that generate economic development and well-being for the population. And crypto is not doing better than the legacy system, most of the users are people like our team, tech savvy with a certain degree of education and already banked.
+Of course, as the numbers show us that Digital Wallets are projected to overtake credit cards by 2024, we want to capitalize on that opportunity with Fintech and Web3 tools.
+
+### Our goal for this project is to actually enable and get crypto at the point of sale.
+
 
 
 # Solution
