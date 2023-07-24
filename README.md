@@ -342,7 +342,7 @@ https://www.sipa.columbia.edu/academics/capstone-projects/cryptocurrency-and-unb
 
 # Appendix I:
 
-APIs utilizadas para transferir assets segun la parachain o token.
+APIs used to transfer assets according to the parachain or token.
 
 Acala USD: 
 
