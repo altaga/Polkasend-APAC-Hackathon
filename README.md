@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [<img src="https://img.shields.io/badge/View-Video-red">](pending)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [<img src="https://img.shields.io/badge/View-Video-red">](https://youtu.be/CrpSv0_F3xw)
 
 # Polkasend-APAC-Hackathon
 
@@ -22,7 +22,7 @@ Installation and Setup guide: [LINK](./INSTALL&SETUP.md)
 
 ## Here is our main demo video: 
 
-[![Demo](https://i.ibb.co/g4W3ypx/image.png)](pending)
+[![Demo](https://i.ibb.co/g4W3ypx/image.png)](https://youtu.be/CrpSv0_F3xw)
 
 # Improvements and our thesis for this new Polkasend
 
