@@ -44,7 +44,7 @@ All this is new:
 * From progressive Web app to Native application
 * Everything regarding the Point of Sale is new.
 
-### Basically we just reused the name and some images.
+### TLDR: Basically we just reused the name and some images.
 
 # Introduction and Problem
 
@@ -78,13 +78,13 @@ System's Architecture:
 
 - All Moonbeam transactions are controlled through [web3.js](https://web3js.readthedocs.io/) and [ethers](https://docs.ethers.org/).
 
-- Todas las transacciones de Polkadot y las Parachains es controlado por [@polkadot/api](https://www.npmjs.com/package/@polkadot/api) y la conexion a la blockchain es a travez del modulo WsProvider mediante RPC.
+- All Polkadot and Parachain transactions are controlled by [@polkadot/api](https://www.npmjs.com/package/@polkadot/api) and the connection to the blockchain is through the WsProvider module through RPC.
 
-- La conexion de la Wallet y el POS Dapp, se utiliza [WalletConnect 2.0](https://walletconnect.com/) como [Universal Provider](https://docs.Walletconnect.com/2.0/web/providers/universal) para realizar la firma de transacciones de forma inalambrica o por NFC.
+- The connection of the Wallet and the POS Dapp is used [WalletConnect 2.0](https://walletconnect.com/) as [Universal Provider](https://docs.Walletconnect.com/2.0/web/providers/universal) to sign transactions wirelessly or by NFC.
 
-- El historial de transacciones para Moonbeam EVM, Polkadot y Parachains es obtenido mediante la [Subscan API](https://support.subscan.io/#introduction).
+- Transaction history for Moonbeam EVM, Polkadot and Parachains is obtained by the [Subscan API](https://support.subscan.io/#introduction).
 
-- Through Rapyd APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
+- Through Rapyd's APIs we can manage users, checkout, swap and KYC of our app. (https://www.rapyd.net/)
 
 # Main App Screens:
 
@@ -113,23 +113,23 @@ Through Moonbeam we can also make transfers XCM transfers with X-Tokens Solidity
 
   <img src="https://i.ibb.co/gzs17MQ/vlcsnap-2023-07-21-15h06m06s357.png" width="32%">
 
-- Con este componente podemos escaner ya sea wallets para hacer transaferencias directas o un Wallet Connect QR para la conectividad con dapp, en este caso escanearemos un WalletConnect 2.0 QR, para conectarnos a nuestro POS Dapp. En el caso de una tranferencia por XCM, seleccionaremos en el [POS](#pos-walletconnect-20-payments) el x-token que vamos a recibir y la cantidad. 
-
+- With this component we can scan either wallets to make direct transfers or a Wallet Connect QR for connectivity with dapp, in this case we will scan a WalletConnect 2.0 QR, to connect to our POS Dapp. In the case of a transfer by XCM, we will select in the [POS](#pos-walletconnect-20-payments) the x-token that we are going to receive and the amount.
+  
   <img src="https://i.ibb.co/xs5Rtz8/vlcsnap-2023-07-21-19h51m42s261.png" width="32%">
   <img src="https://i.ibb.co/kmwYxpp/vlcsnap-2023-07-21-19h46m50s055.png" width="32%">
   <img src="https://i.ibb.co/wppvTHC/vlcsnap-2023-07-21-19h15m03s208.png" width="32%">
 
-- Una vez aceptamos la conexion podemos aparecera el letrero de Connected to Dapp y el mismo POS nos mandara a los pocos segundos la peticion de transaccion, la cual si parece estar bien tendremos que aceptar y firmar como cualquier otra wallet.
+- Once we accept the connection, the Connected to Dapp sign will appear and the same POS will send us the transaction request in a few seconds, which if it seems to be fine we will have to accept and sign like any other wallet.
 
     <img src="https://i.ibb.co/2Fyf8VG/vlcsnap-2023-07-21-19h15m16s395.png" width="32%">
     <img src="https://i.ibb.co/80xXxK0/vlcsnap-2023-07-21-19h15m29s711.png" width="32%"> <img src="https://i.ibb.co/F7pH4yD/vlcsnap-2023-07-21-19h15m36s060.png" width="32%">
 
-- Finalmente esperamos la confirmacion del pago y revisandolo en el explorer confirmamos que es correcta.
+- Finally we wait for the confirmation of the payment and reviewing it in the explorer we confirm that it is correct.
 
   <img src="https://i.ibb.co/MZ7RLwQ/image.png" width="32%">
   <img src="https://i.ibb.co/q7XtcBr/vlcsnap-2023-07-21-19h16m25s169.png" width="32%">
 
-- La transaccion que se realizo en esta seccion es la siguiente, puedes consultar que los datos son los mismos.
+- The transaction carried out in this section is the following, you can check that the data is the same.
 
 https://moonbeam.subscan.io/extrinsic/0xbb9d81e12609a30822c3b59156ee44c5424830fd0113006e4042e15a687f2e60
 
@@ -141,24 +141,24 @@ Through Moonbeam we can also make transfers directly between Moonbeam Wallets.
 
   <img src="https://i.ibb.co/gzs17MQ/vlcsnap-2023-07-21-15h06m06s357.png" width="32%">
 
-- Con este componente podemos escaner ya sea wallets para hacer transaferencias directas o un Wallet Connect QR para la conectividad con dapp, en este caso escanearemos una wallet.
+- With this component we can scan either wallets to make direct transfers or a Wallet Connect QR for dapp connectivity, in this case we will scan a wallet.
 
   <img src="https://i.ibb.co/7zggHQK/vlcsnap-2023-07-21-15h06m15s335.png" width="32%">
   <img src="https://i.ibb.co/wpw9xKw/vlcsnap-2023-07-21-15h06m44s607.png" width="32%">
 
-- En el caso de una tranferencia directa, seleccionaremos el token que vamos a enviar y la cantidad. Al presionar el boton de Check la wallet revisara que la transaccion pueda ser realizada con el balance que contamos en ese momento. Si la transaccion puede realizarse el boton cambiara a Send y podremos realizar la transaccion.
+- In the case of a direct transfer, we will select the token that we are going to send and the amount. By pressing the Check button, the wallet will check that the transaction can be made with the balance we have at that time. If the transaction can be carried out, the button will change to Send and we will be able to carry out the transaction.
 
   <img src="https://i.ibb.co/Xkpz8nv/vlcsnap-2023-07-21-15h06m30s802.png" width="32%">
   <img src="https://i.ibb.co/XbMgrz6/vlcsnap-2023-07-21-15h06m49s035.png" width="32%">
   <img src="https://i.ibb.co/Jzcj2nM/vlcsnap-2023-07-21-15h06m53s064.png" width="32%">
 
-- Una vez presionado el boton de Send, aparecera una pantalla de firma para que firmemos con nuestro pin o biometricos. Pasando a una pantalla de espera hasta que la transaccion este en la blockchain y finalmente podramos verla en el explorer.
+- Once the Send button is pressed, a signature screen will appear for us to sign with our pin or biometrics. Going to a waiting screen until the transaction is in the blockchain and we can finally see it in the explorer.
 
   <img src="https://i.ibb.co/3NKg61m/vlcsnap-2023-07-21-15h06m59s656.png" width="32%">
   <img src="https://i.ibb.co/rpBpqnr/vlcsnap-2023-07-21-15h07m14s477.png" width="32%">
   <img src="https://i.ibb.co/G5r3hgJ/vlcsnap-2023-07-21-15h07m34s813.png" width="32%">
 
-- La transaccion que se realizo en esta seccion es la siguiente, puedes consultar que los datos son los mismos.
+- The transaction carried out in this section is the following, you can check that the data is the same.
 
 https://moonbeam.subscan.io/extrinsic/0xd7dbf6e856512d00e3e7583f0bd2e3b17b7192ccd323b6bb64449f8d2255fcab
 
@@ -170,26 +170,26 @@ Through Polkadot API we can also make transfers directly between Polkadot and Pa
 
   <img src="https://i.ibb.co/31q3Zpy/vlcsnap-2023-07-21-15h06m06s357-1.png" width="32%">
 
-- Con este componente podemos escaner ya sea wallets para hacer transaferencias directas o un Wallet Connect QR para la conectividad con dapp, en este caso escanearemos una wallet.
+- With this component we can scan either wallets to make direct transfers or a Wallet Connect QR for dapp connectivity, in this case we will scan a wallet.
 
   <img src="https://i.ibb.co/vXxzjLq/vlcsnap-2023-07-21-15h21m02s190.png" width="32%">
   <img src="https://i.ibb.co/7r7WJqC/vlcsnap-2023-07-21-15h21m09s779.png" width="32%">
 
-- En el caso de una tranferencia directa, seleccionaremos el token que vamos a enviar y la cantidad, internamente la wallet selecciona el metodo correcto para mover el asset, ya que algunas parachains varian de metodo de API. [APPENDIX I](#appendix-i).
+- In the case of a direct transfer, we will select the token that we are going to send and the amount, internally the wallet selects the correct method to move the asset, since some parachains vary from API method. [APPENDIX I](#appendix-i).
 
--  Al presionar el boton de Check la wallet revisara que la transaccion pueda ser realizada con el balance que contamos en ese momento. Si la transaccion puede realizarse el boton cambiara a Send y podremos realizar la transaccion.
+-  By pressing the Check button, the wallet will check that the transaction can be made with the balance we have at that time. If the transaction can be carried out, the button will change to Send and we will be able to carry out the transaction.
 
     <img src="https://i.ibb.co/SJ3qJSZ/vlcsnap-2023-07-21-15h21m13s727.png" width="32%">
     <img src="https://i.ibb.co/cFYnQP1/vlcsnap-2023-07-21-15h21m24s544.png" width="32%">
     <img src="https://i.ibb.co/SsNVbdR/vlcsnap-2023-07-21-15h21m27s818.png" width="32%">
 
-- Una vez presionado el boton de Send, aparecera una pantalla de firma para que firmemos con nuestro pin o biometricos. Pasando a una pantalla de espera hasta que la transaccion este en la blockchain y finalmente podramos verla en el explorer.
+- Once the Send button is pressed, a signature screen will appear for us to sign with our pin or biometrics. Going to a waiting screen until the transaction is in the blockchain and we can finally see it in the explorer.
 
   <img src="https://i.ibb.co/xf8W290/vlcsnap-2023-07-21-15h21m46s845.png" width="32%">
   <img src="https://i.ibb.co/mzmZVs5/vlcsnap-2023-07-21-15h22m27s498.png" width="32%">
   <img src="https://i.ibb.co/KGtSk4Q/vlcsnap-2023-07-21-15h22m46s070.png" width="32%">
 
-- La transaccion que se realizo en esta seccion es la siguiente, puedes consultar que los datos son los mismos.
+- The transaction carried out in this section is the following, you can check that the data is the same.
 
 https://phala.subscan.io/extrinsic/0x1b6c65538305ef1c3051a63cb3485ccc0e75bd8cf879f2ff9c7f7ec50e363eaf
 
@@ -230,19 +230,19 @@ https://phala.subscan.io/extrinsic/0x1b6c65538305ef1c3051a63cb3485ccc0e75bd8cf87
   
 ## POS - WalletConnect 2.0 Payments:
 
-- One of the most important processes is being able to make payments at the POS through WalletConnect 2.0, being this the pillar of our device, ya que esto provee una experiencia de pago similar a los pagos actuales sin contacto, a su vez el poder realizar los pagos con cualquiera de los X-Tokens disponibles en la red de moonbeam, los pagos pueden realizarse ya sea entre las redes como una transaccion tradicional o cross chain mediante el lemguaje XCM, por ejemplo mostraremos como se realiza una transaccion desde moonbeam a una parachain.
+- One of the most important processes is being able to make payments at the POS through WalletConnect 2.0, being this the pillar of our device. Since this provides a payment experience similar to current contactless payments, in turn being able to make payments with any of the X-Tokens available in the moonbeam network, payments can be made either between the networks as a traditional transaction or cross chain using the XCM language, for example we will show how a transaction is made from moonbeam to a parachain.
 
   <img src="https://i.ibb.co/L6Sv9bn/vlcsnap-2023-07-21-20h09m29s388.png" width="32%" >
   <img src="https://i.ibb.co/QkMJ2Mr/vlcsnap-2023-07-21-20h09m50s015.png" width="32%">
   <img src="https://i.ibb.co/txZrQHw/vlcsnap-2023-07-21-20h10m06s933.png" width="32%">
 
-- When the reference is created by QR, it can be paid through any wallet compatible with WalletConnect 2.0, however our Main App also allows payment through NFC, segun la seleccion del token, el POS configurara la transaccion con la correcta multilocation address [Appendix II](#appendix-ii).
+- When the reference is created by QR, it can be paid through any wallet compatible with WalletConnect 2.0, however our Main App also allows payment through NFC. According to the token selection, the POS will configure the transaction with the correct multilocation address [Appendix II](#appendix-ii).
 
     <img src="https://i.ibb.co/2KH3gbz/vlcsnap-2023-07-21-20h10m13s631.png" width="32%">
     <img src="https://i.ibb.co/7rhx4Jv/vlcsnap-2023-07-21-20h10m46s015.png" width="32%">
     <img src="https://i.ibb.co/BGdjkRM/vlcsnap-2023-07-21-20h10m50s739.png" width="32%">
 
-- La seccion de codigo que configura la multilocation address es la siguiente, es sumamente importante que sea correcta sino los fondos podria perderse.
+- The section of code that configures the multilocation address is the following, it is extremely important that it is correct otherwise the funds could be lost.
 
         const multilocation = [
             1,
@@ -287,21 +287,21 @@ Of course, the main plan is to launch this application both the wallet and test 
 
 Though our time with certain mentors during the Hackathon we were shared several insights both technical and on the business development side that will map the next upgrades to the project:
 
-To have a conversion ready for the final user in a currency he can understand, this happens when we do not use Stablecoins. (from Kasper Mai Joergensen)
+- To have a conversion ready for the final user in a currency he can understand, this happens when we do not use Stablecoins. (from Kasper Mai Joergensen)
 
-Improve or remove the seed phrase process for the PoS. (from Kasper Mai Joergensen)  
+- Improve or remove the seed phrase process for the PoS. (from Kasper Mai Joergensen)  
 
-Incorporate the SmolDOT light client instead of an RPC and refer to XCM correctly as a language xD. (from Leonardo Razovic)
+- Incorporate the SmolDOT light client instead of an RPC and refer to XCM correctly as a language xD. (from Leonardo Razovic)
 
-Improve the UX and incorporate CRM utilities for businesses. (from Victor Estival)
+- Improve the UX and incorporate CRM utilities for businesses. (from Victor Estival)
 
-Mind the Polkadot grants and support, and learn to market. (Victor Estival)
+- Mind the Polkadot grants and support, and learn to market. (Victor Estival)
 
-Improve on the delivery of the project and perhaps experiment with DeFi tools (Daniel Bigos)
+- Improve on the delivery of the project and perhaps experiment with DeFi tools (Daniel Bigos)
 
-Go further though several of the other Moonbeam tools and experiment (Kevin Neilson) 
+- Go further though several of the other Moonbeam tools and experiment (Kevin Neilson) 
 
-But in essence our plan is to launch the Wallet and run pilots for the PoS while we secure funding.
+- But in essence our plan is to launch the Wallet and run pilots for the PoS while we secure funding.
 
 
 
