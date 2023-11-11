@@ -37,7 +37,7 @@
     "asyncstorage-down": "^4.2.0",
     "aws-iot-device-sdk": "^2.2.12",
     "aws-sdk": "^2.1402.0",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "bignumber.js": "^9.1.1",
     "bip39": "^3.1.0",
     "buffer": "^6.0.3",
