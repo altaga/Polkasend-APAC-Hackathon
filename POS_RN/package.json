@@ -35,7 +35,7 @@
     "asyncstorage-down": "^4.2.0",
     "aws-iot-device-sdk": "^2.2.12",
     "aws-sdk": "^2.1418.0",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "buffer": "^6.0.3",
     "deprecated-react-native-prop-types": "^4.2.0",
     "ethers": "5.7.2",
